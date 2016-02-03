@@ -1,0 +1,82 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+
+body {
+	color: #adadad;
+	font-family: sans-serif;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	color: #494949;
+}
+
+h2 {
+	color: #494949;
+	text-transform: uppercase;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+/* Nav Styles */
+
+ul.nav {
+	list-style: none;
+	padding: 0;
+}
+
+ul.nav a {
+	color: #494949;
+	text-transform: uppercase;
+	padding: 10px; 
+	display: block;
+	margin: 0 auto;
+	background-color: #fff;
+	margin: 10px;
+	font-weight: 800;
+}
+
+/* Link Styles */
+
+a {
+	text-decoration: none;
+}
+
+/* Section Styles */
+
+header, footer {
+	background-color: #fafafa;
+}
+
+
+ul.footer-links li {
+	color: #494949;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 800;
+	list-style: none;
+}
+
+.profile {
+	max-width: 70%;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 320px) {
+	}
+	
+	
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+	}
+	
+	
