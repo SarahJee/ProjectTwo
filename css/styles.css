@@ -190,6 +190,10 @@ main p {
 	margin: 0 5%;
 }
 
+
+
+}
+
 	
 
 
@@ -206,12 +210,12 @@ header .container {
 
 header p {
 	float: left;
-	width: 48%;
+	width: 55%;
 	text-align: left;
 }
 
 .profile {
-	width: 48%;
+	width: 40%;
 	padding: 0 10px;
 	float: right;
 	margin-top: 20px;	
@@ -234,15 +238,19 @@ footer {
 	width: 100%;
 }
 
+footer p {
+	max-width: 55%;
+	text-align: center;
+	margin: 0 auto;
+}
 .footer-nav a {
 	display: inline;
 	float: right;
 	text-transform: uppercase;
 	color: #494949; 
 	margin: 0 10px;
-	direction: rtl;
+	font-size: 0.9em;
 }	
-
 
 .footer-links .top {
 	display: none;
@@ -254,8 +262,34 @@ footer {
 /*********** Styles for desktop ***********	
 ******************************************/
 
-@media screen and (min-width: 1000px) {
-	}
+@media screen and (min-width: 1024px) {
+
+.name {
+	float: left;
+}
+
+.main-nav ul {
+	text-align: right;
+}
+
+header p, footer p {
+	font-size: 20px;
+}
+
+.portfolio {
+	overflow: auto;
+}
+
+.lead-in  {
+	max-width: 31%;
+	margin: 10px;
+}	
+
+.lead-in:nth-child(even) {
+	clear: none;	
+}
+	
+}
 	
 
 
