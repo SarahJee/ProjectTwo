@@ -13,9 +13,9 @@
 		    <div class="main-nav">
 			    <h1 class="name">Sarah Jee Watson</h1>
 		        <ul>
-		          <li><a href="index.html" class="current">Home</a></li>
-		          <li><a href="experience.html">Portfolio</a></li>
-		          <li><a href="contact.html">Contact</a></li>
+		          <li><a href="index.html" id="top">Home</a></li>
+		          <li><a href="#portfolio">Portfolio</a></li>
+		          <li><a href="#contact">Contact</a></li>
 		        </ul>
 		    </div>
 		    <div class="intro">
@@ -27,7 +27,7 @@
   
    <main>
 	    <div class="container clearfix">
-	   		<div class="portfolio">	
+	   		<div class="portfolio" id="portfolio">	
 		   		<h2>Portfolio</h2>
 		   
 		   		<div class="lead-in">
@@ -64,19 +64,21 @@
 	    </div>
    </main>
     
-   <footer class="clearfix">
+   <footer class="clearfix" id="contact">
 	   <h2>Contact</h2>
 	   <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
 	   <p>Phone<a href="tel"> +61 (08) 404 412 308</a><br />
 	   Email<a href="mailto:design@sarahjee.com"> design@sarahjee.com</a></p>
 
-	    <ul class ="footer-links">   
-          <li class="name">Sarah Jee</li>
-          <li class="footer-nav"><a href="index.html">Home</a></li>
-          <li class="footer-nav"><a href="experience.html">Portfolio</a></li>
-          <li class="footer-nav"><a href="contact.html">Contact</a></li>
-          <li class="top"><a href="#">Back to Top</a></li>
-        </ul>
+	    <div class ="footer-links">   
+          <div class="name">Sarah Jee</div>
+	          <ul class="footer-nav">
+	          <li><a href="#top">Home</a></li>
+	          <li><a href="#portfolio">Portfolio</a>
+	          <li><a href="#contact">Contact</a></li>
+	          </ul>
+          <div class="top"><a href="#top">Back to Top</a></div>
+        </div>
    </footer>
    
 </body>
