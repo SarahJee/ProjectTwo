@@ -22,16 +22,19 @@ body {
 
 h1 {
 	font-size: 1.7em;
+	color: #e24949;
 }
 
 h2 {
 	text-transform: uppercase;
 	font-size: 1em;
 	padding: 2em;
+	color: #0b1c67;
 }
 
 h3 {
 	font-weight: 400;
+	color: #0b1c67;
 }
 
 p {
@@ -44,6 +47,7 @@ p {
 
 header {
 	padding: 1em 0;
+	background-image: url("img/background.png");
 }
 
 header p {
@@ -74,7 +78,7 @@ img {
 	text-transform: uppercase;
 	padding: 10px; 
 	display: block;
-	background-color: #fff;
+    background: url("img/background.png");
 	margin: 5px 10px;
 	font-weight: 800;
 	font-size: 0.9em;
@@ -90,8 +94,21 @@ img {
 
 /* Link Styles */
 
+
 a {
 	text-decoration: none;
+}
+
+.footer-nav a:hover,
+.main-nav a:hover,
+a:hover, 
+footer p:nth-child(n+2) a:hover
+ {
+	color: #48abd5;
+}
+
+a.current {
+border-bottom: solid 1px #494949;
 }
 
 
@@ -114,6 +131,7 @@ header, footer {
 main img {
 	padding-bottom: 1em;
 }
+
 
 
 /* Footer styles */
@@ -168,7 +186,7 @@ footer p:nth-child(n+2) a{
 }	
 
 
-/*********** Styles for tablets **********
+/*********** Styles for 400 and up **********
 ******************************************/
 
 @media screen and (min-width: 400px) {
@@ -197,7 +215,7 @@ main p {
 	
 
 
-/*********** Styles for tablets **********
+/*********** Styles for 768 and up **********
 ******************************************/
 
 @media screen and (min-width: 768px) {
@@ -216,10 +234,12 @@ header p {
 
 .profile {
 	width: 40%;
-	padding: 0 10px;
+	padding: 0;
 	float: right;
 	margin-top: 20px;	
 	max-width: 467px;
+	border: solid #fff 10px; 
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.16);
 }
 
 .lead-in {
@@ -236,6 +256,7 @@ header p {
 footer {
 	overflow: auto;
 	width: 100%;
+	background: url("img/background.png");
 }
 
 footer p {
@@ -259,7 +280,7 @@ footer p {
 }	
 	
 	
-/*********** Styles for desktop ***********	
+/*********** Styles for 1024 and up ***********	
 ******************************************/
 
 @media screen and (min-width: 1024px) {
